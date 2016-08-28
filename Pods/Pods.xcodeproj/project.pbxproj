@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA5E5B427016F8F21C95D7088C3FA48 /* OMGHTTPURLRQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990419A7FC3D8A50F9D1A7C0CC5C7E5 /* OMGHTTPURLRQ-dummy.m */; };
+		48FD54B161094645748D2BACA8DE4A5B /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E88838D0DDF2FE93721469CBE9F62C /* OMGUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		670027531F652359E46EABE192619F54 /* TDOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5B09DF1A1955EBCE6528CD960265A /* TDOAuth-dummy.m */; };
+		747C72B07C42EAE1D73783D9AEE842F9 /* Pods-Fun Planner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B912D87D5A0A016A65974C455C4A21F /* Pods-Fun Planner-dummy.m */; };
+		75EA65B6B22C046C4B6D523828F4959F /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 78292A4CD8377B368E0FE6A6143D9437 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A28B1C9B305CD557B55B2EB835054C0C /* TDOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DC7D555D33B544339B05188B7730BD /* TDOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA50FB4822085F1212AAC52700B050A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DE170854E05942762311A78BCF86E385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA9BF6A3D06489B1586D7658F8B73899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F29C6CB87595941B74EE3F238D78B367 /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 685A2BFAABB1660FCFF52F5DA22AA4ED /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C5FC1B0FE19E47965111BDAC4A58F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD660E6CD2216BA204430C04B61EFFF;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		6AE19CC1B24CF8D792594A1B05DB2BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD660E6CD2216BA204430C04B61EFFF;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		76A9AFCF3DE4F29882F5D4DBE3F4EDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F714D36F25E7871B12E532FF3CD71D6;
+			remoteInfo = TDOAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1990419A7FC3D8A50F9D1A7C0CC5C7E5 /* OMGHTTPURLRQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMGHTTPURLRQ-dummy.m"; sourceTree = "<group>"; };
+		1B912D87D5A0A016A65974C455C4A21F /* Pods-Fun Planner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fun Planner-dummy.m"; sourceTree = "<group>"; };
+		32FE524B2DD209211BB963FDFA88F1D2 /* Pods-Fun Planner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun Planner-resources.sh"; sourceTree = "<group>"; };
+		3CB5B09DF1A1955EBCE6528CD960265A /* TDOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDOAuth-dummy.m"; sourceTree = "<group>"; };
+		40E94624D90AD43E15024EE7566BA84D /* Pods-Fun Planner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun Planner-frameworks.sh"; sourceTree = "<group>"; };
+		4AF6164714A096AFC0500CF6F783128B /* libOMGHTTPURLRQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMGHTTPURLRQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEA2DB655A4C61036102C79FFBC5797 /* TDOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDOAuth.xcconfig; sourceTree = "<group>"; };
+		66DC7D555D33B544339B05188B7730BD /* TDOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		67E88838D0DDF2FE93721469CBE9F62C /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = Sources/OMGUserAgent.m; sourceTree = "<group>"; };
+		685A2BFAABB1660FCFF52F5DA22AA4ED /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = Sources/OMGUserAgent.h; sourceTree = "<group>"; };
+		7714E17700926E229D0B3ACB0B23B46E /* OMGHTTPURLRQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.xcconfig; sourceTree = "<group>"; };
+		78292A4CD8377B368E0FE6A6143D9437 /* TDOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		7876E6DEE16EA403C38E90ED5DB6A2DF /* Pods-Fun Planner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun Planner-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AF2D4D475C907E7633A82C8ED1FBDEE /* libPods-Fun Planner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fun Planner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF81C33408187207054C1B0BE6A46C5 /* libTDOAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTDOAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19A30784EA08E4F1417D5CB1DC6DD6B /* OMGHTTPURLRQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-prefix.pch"; sourceTree = "<group>"; };
+		E6335DE64011C14A6D4D84D5FE662961 /* Pods-Fun Planner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fun Planner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7C9A5532B8F2F19F585AB5BB0A5E189 /* TDOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDOAuth-prefix.pch"; sourceTree = "<group>"; };
+		F70BBC4BF60E2E2CEE7BE9DDD8BC2334 /* Pods-Fun Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FC2BBDB9254E069469A2394867BA9D /* Pods-Fun Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun Planner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DF07A7F70611A3E1FD76D182EE36DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA50FB4822085F1212AAC52700B050A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C34FB9FB834186F8A407517BE808C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9BF6A3D06489B1586D7658F8B73899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2A400E32E6AED5C089C7515848E1BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE170854E05942762311A78BCF86E385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2081BEBEC1AEE2E1E71FE738864364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6164714A096AFC0500CF6F783128B /* libOMGHTTPURLRQ.a */,
+				8AF2D4D475C907E7633A82C8ED1FBDEE /* libPods-Fun Planner.a */,
+				DBF81C33408187207054C1B0BE6A46C5 /* libTDOAuth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA62BA0565840A5D26AFB0237AA2886 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9366E26DA409F811B81F190F134149 /* Pods-Fun Planner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E3A906538D7EE3E7FED833EE546299E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7714E17700926E229D0B3ACB0B23B46E /* OMGHTTPURLRQ.xcconfig */,
+				1990419A7FC3D8A50F9D1A7C0CC5C7E5 /* OMGHTTPURLRQ-dummy.m */,
+				E19A30784EA08E4F1417D5CB1DC6DD6B /* OMGHTTPURLRQ-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMGHTTPURLRQ";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F9F6ED24E7EBF6EBB08346D4101DDB4 /* TDOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				66DC7D555D33B544339B05188B7730BD /* TDOAuth.h */,
+				78292A4CD8377B368E0FE6A6143D9437 /* TDOAuth.m */,
+				7018DDD187188F414DC68FFF52349F69 /* Support Files */,
+			);
+			path = TDOAuth;
+			sourceTree = "<group>";
+		};
+		7018DDD187188F414DC68FFF52349F69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA2DB655A4C61036102C79FFBC5797 /* TDOAuth.xcconfig */,
+				3CB5B09DF1A1955EBCE6528CD960265A /* TDOAuth-dummy.m */,
+				E7C9A5532B8F2F19F585AB5BB0A5E189 /* TDOAuth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TDOAuth";
+			sourceTree = "<group>";
+		};
+		79DC324FC62BD5296B4EB21B2231821B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2CDDB17F5CBAF96010565A7EA715BD9 /* OMGHTTPURLRQ */,
+				6F9F6ED24E7EBF6EBB08346D4101DDB4 /* TDOAuth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C9366E26DA409F811B81F190F134149 /* Pods-Fun Planner */ = {
+			isa = PBXGroup;
+			children = (
+				E6335DE64011C14A6D4D84D5FE662961 /* Pods-Fun Planner-acknowledgements.markdown */,
+				7876E6DEE16EA403C38E90ED5DB6A2DF /* Pods-Fun Planner-acknowledgements.plist */,
+				1B912D87D5A0A016A65974C455C4A21F /* Pods-Fun Planner-dummy.m */,
+				40E94624D90AD43E15024EE7566BA84D /* Pods-Fun Planner-frameworks.sh */,
+				32FE524B2DD209211BB963FDFA88F1D2 /* Pods-Fun Planner-resources.sh */,
+				F70BBC4BF60E2E2CEE7BE9DDD8BC2334 /* Pods-Fun Planner.debug.xcconfig */,
+				F8FC2BBDB9254E069469A2394867BA9D /* Pods-Fun Planner.release.xcconfig */,
+			);
+			name = "Pods-Fun Planner";
+			path = "Target Support Files/Pods-Fun Planner";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				79DC324FC62BD5296B4EB21B2231821B /* Pods */,
+				2C2081BEBEC1AEE2E1E71FE738864364 /* Products */,
+				2DA62BA0565840A5D26AFB0237AA2886 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CDDB17F5CBAF96010565A7EA715BD9 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				2E3A906538D7EE3E7FED833EE546299E /* Support Files */,
+				E4E4AB7D4EF105C01FC45035C64E5496 /* UserAgent */,
+			);
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		E4E4AB7D4EF105C01FC45035C64E5496 /* UserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				685A2BFAABB1660FCFF52F5DA22AA4ED /* OMGUserAgent.h */,
+				67E88838D0DDF2FE93721469CBE9F62C /* OMGUserAgent.m */,
+			);
+			name = UserAgent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C46B1B2248038D58B7A9923C26B11B29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29C6CB87595941B74EE3F238D78B367 /* OMGUserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E62D15AA3A1D1E2A2916495441BD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B1C9B305CD557B55B2EB835054C0C /* TDOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F714D36F25E7871B12E532FF3CD71D6 /* TDOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D305115ABFB85D43478D75937450BBD /* Build configuration list for PBXNativeTarget "TDOAuth" */;
+			buildPhases = (
+				9A7146A41EB43DFDF05EF1A64E47966E /* Sources */,
+				39C34FB9FB834186F8A407517BE808C5 /* Frameworks */,
+				F04E62D15AA3A1D1E2A2916495441BD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCDF3A4A0255ABA471A87B9F909F45B /* PBXTargetDependency */,
+			);
+			name = TDOAuth;
+			productName = TDOAuth;
+			productReference = DBF81C33408187207054C1B0BE6A46C5 /* libTDOAuth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A30CD899D725B198A9B7E782E01D634B /* Pods-Fun Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162D4EE0EE13042460ADF5C69B0BABC9 /* Build configuration list for PBXNativeTarget "Pods-Fun Planner" */;
+			buildPhases = (
+				E3C243EC51242F14F1C9E01352C72E93 /* Sources */,
+				7B2A400E32E6AED5C089C7515848E1BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F95ACF6C4D576883D812B0E813E4729 /* PBXTargetDependency */,
+				A7AFBAC697F299C1ABD44D1908447A19 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fun Planner";
+			productName = "Pods-Fun Planner";
+			productReference = 8AF2D4D475C907E7633A82C8ED1FBDEE /* libPods-Fun Planner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCD660E6CD2216BA204430C04B61EFFF /* OMGHTTPURLRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDAA84180B46191D5FDD1F3233A04FE /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */;
+			buildPhases = (
+				5AE69805046AB1822BAFEC93CBB54CA1 /* Sources */,
+				06DF07A7F70611A3E1FD76D182EE36DE /* Frameworks */,
+				C46B1B2248038D58B7A9923C26B11B29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGHTTPURLRQ;
+			productName = OMGHTTPURLRQ;
+			productReference = 4AF6164714A096AFC0500CF6F783128B /* libOMGHTTPURLRQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C2081BEBEC1AEE2E1E71FE738864364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD660E6CD2216BA204430C04B61EFFF /* OMGHTTPURLRQ */,
+				A30CD899D725B198A9B7E782E01D634B /* Pods-Fun Planner */,
+				9F714D36F25E7871B12E532FF3CD71D6 /* TDOAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE69805046AB1822BAFEC93CBB54CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA5E5B427016F8F21C95D7088C3FA48 /* OMGHTTPURLRQ-dummy.m in Sources */,
+				48FD54B161094645748D2BACA8DE4A5B /* OMGUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7146A41EB43DFDF05EF1A64E47966E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670027531F652359E46EABE192619F54 /* TDOAuth-dummy.m in Sources */,
+				75EA65B6B22C046C4B6D523828F4959F /* TDOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C243EC51242F14F1C9E01352C72E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747C72B07C42EAE1D73783D9AEE842F9 /* Pods-Fun Planner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F95ACF6C4D576883D812B0E813E4729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = FCD660E6CD2216BA204430C04B61EFFF /* OMGHTTPURLRQ */;
+			targetProxy = 69C5FC1B0FE19E47965111BDAC4A58F9 /* PBXContainerItemProxy */;
+		};
+		A7AFBAC697F299C1ABD44D1908447A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDOAuth;
+			target = 9F714D36F25E7871B12E532FF3CD71D6 /* TDOAuth */;
+			targetProxy = 76A9AFCF3DE4F29882F5D4DBE3F4EDE8 /* PBXContainerItemProxy */;
+		};
+		AFCDF3A4A0255ABA471A87B9F909F45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = FCD660E6CD2216BA204430C04B61EFFF /* OMGHTTPURLRQ */;
+			targetProxy = 6AE19CC1B24CF8D792594A1B05DB2BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0290B6A18EBA742ABCDC0A5C9096F3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEA2DB655A4C61036102C79FFBC5797 /* TDOAuth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		104D40EC2238F12C121BF2116B80B2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEA2DB655A4C61036102C79FFBC5797 /* TDOAuth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CC28A11F2098C6285807C2D2D096317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FC2BBDB9254E069469A2394867BA9D /* Pods-Fun Planner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6255E6448BEAFEA7DA071FFCF1670989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7714E17700926E229D0B3ACB0B23B46E /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79752CDE42A53639E7904BB90F0425C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70BBC4BF60E2E2CEE7BE9DDD8BC2334 /* Pods-Fun Planner.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C663CA23CD901AFD97EAE539A3677574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7714E17700926E229D0B3ACB0B23B46E /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162D4EE0EE13042460ADF5C69B0BABC9 /* Build configuration list for PBXNativeTarget "Pods-Fun Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79752CDE42A53639E7904BB90F0425C8 /* Debug */,
+				3CC28A11F2098C6285807C2D2D096317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D305115ABFB85D43478D75937450BBD /* Build configuration list for PBXNativeTarget "TDOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104D40EC2238F12C121BF2116B80B2C4 /* Debug */,
+				0290B6A18EBA742ABCDC0A5C9096F3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDAA84180B46191D5FDD1F3233A04FE /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6255E6448BEAFEA7DA071FFCF1670989 /* Debug */,
+				C663CA23CD901AFD97EAE539A3677574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
